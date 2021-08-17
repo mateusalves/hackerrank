@@ -37,7 +37,7 @@ int sumArray(int arr_rows, int arr_columns, int arr[arr_rows][arr_columns]){
     return summedArray;
 }
 
-int getMax(int hourglassSumResults[16]){
+int getMax(int hourglassSumResults[]){
 
     int maxValue = hourglassSumResults[0];
     for(int o = 0; o < 16; o++)
@@ -47,7 +47,6 @@ int getMax(int hourglassSumResults[16]){
 }
 
 int hourglassSum(int arr_rows, int arr_columns, int** arr) {
-/*int hourglassSum(int arr_rows, int arr_columns, int arr[6][6]) {*/
 
     int numberOfResults = 0;
     int hourglassSumResults[16];
@@ -104,7 +103,7 @@ int main(){
     result = hourglassSum(arr_rows, arr_columns, arr);
     /*result = hourglassSum(arr_rows, arr_columns, arrExample);*/
 
-    int *test = arrExample[0];
+    //int *test = arrExample[0];
 
 
     /*result = hourglassSum(arr_rows, arr_columns, &test);*/
