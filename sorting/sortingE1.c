@@ -25,9 +25,8 @@ void countSwaps( int a_count, int* a)
 }
 
 int main(int argc, char **argv){
-  int n = 3;
-
-  int arr[] = {6, 4, 1};
+  int n = 7;
+  int arr[] = {1, 12, 5, 111, 200, 1000, 10};
 
   countSwaps(n, arr);
 
